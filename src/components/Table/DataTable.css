@@ -1,0 +1,34 @@
+.dt-wrapper {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+
+table.dt-root {
+  background: whitesmoke;
+  border-collapse: collapse;
+  width: 100%;
+  /* height: 100%; */
+  /* table-layout: fixed; */
+}
+
+.dt-wrapper thead {
+  position: sticky;
+  top: 0;
+  background: gainsboro;
+}
+
+.dt-head th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid;
+}
+
+.dt-head .dt-head-row {
+  /* border: 1px solid; */
+}
+
+.dt-body .dt-data {
+  padding: 12px;
+  border: 1px solid;
+}
